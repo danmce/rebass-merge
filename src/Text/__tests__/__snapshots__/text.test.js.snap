@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Text correctly: enzyme.mount 1`] = `
+<Text
+  color="primary"
+  fontSize={
+    Array [
+      3,
+      4,
+      5,
+    ]
+  }
+  fontWeight="bold"
+>
+  <ForwardRef
+    color="primary"
+    fontSize={
+      Array [
+        3,
+        4,
+        5,
+      ]
+    }
+    fontWeight="bold"
+  >
+    <Styled(div)
+      color="primary"
+      fontSize={
+        Array [
+          3,
+          4,
+          5,
+        ]
+      }
+      fontWeight="bold"
+      tx="text"
+    >
+      <div
+        className="emotion-0"
+      >
+        Text
+      </div>
+    </Styled(div)>
+  </ForwardRef>
+</Text>
+`;

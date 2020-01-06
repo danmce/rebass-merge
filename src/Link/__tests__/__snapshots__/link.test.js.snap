@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Link correctly: enzyme.mount 1`] = `
+<Link
+  href="https://rebassjs.org"
+>
+  <ForwardRef
+    href="https://rebassjs.org"
+  >
+    <Styled(div)
+      as="a"
+      href="https://rebassjs.org"
+      variant="link"
+    >
+      <a
+        className="emotion-0"
+        href="https://rebassjs.org"
+      >
+        Link
+      </a>
+    </Styled(div)>
+  </ForwardRef>
+</Link>
+`;

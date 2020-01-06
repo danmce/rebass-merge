@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders error Button correctly: enzyme.mount 1`] = `
+<Button
+  variant="primary"
+>
+  <ForwardRef
+    variant="primary"
+    width="auto"
+  >
+    <Styled(div)
+      __css={
+        Object {
+          "appearance": "none",
+          "bg": "primary",
+          "border": 0,
+          "borderRadius": 4,
+          "color": "white",
+          "display": "inline-block",
+          "fontSize": "inherit",
+          "lineHeight": "inherit",
+          "px": 3,
+          "py": 2,
+          "textAlign": "center",
+          "textDecoration": "none",
+        }
+      }
+      as="button"
+      tx="buttons"
+      variant="primary"
+      width="auto"
+    >
+      <button
+        className="emotion-0"
+      >
+        Test
+      </button>
+    </Styled(div)>
+  </ForwardRef>
+</Button>
+`;
