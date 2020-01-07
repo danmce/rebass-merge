@@ -28,7 +28,6 @@
     "enzyme-to-json": "^3.3.4",
     "jest": "^23.6.0",
     "jest-emotion": "^9.2.11",
-    "merge": "^1.2.1",
     "source-map-loader": "^0.2.4",
     "svg-react-loader": "^0.4.6",
     "webpack": "^4.22.0",
