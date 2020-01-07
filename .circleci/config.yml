@@ -6,8 +6,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Install dependencies"
+          name: 'Install dependencies'
           command: npm install
       - run:
           name: 'Push to UXPin'
-          command: ./node_modules/@uxpin/merge-cli/bin/uxpin-merge push --webpack-config ./webpack.config.js --wrapper ./src/UXPinWrapper/UXPinWrapper.js
+          command: ./node_modules/@uxpin/merge-cli/bin/uxpin-merge push --webpack-config ./webpack.uxpin.config.js --wrapper ./src/UXPinWrapper/UXPinWrapper.js
