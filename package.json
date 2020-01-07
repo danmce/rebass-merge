@@ -48,6 +48,7 @@
   },
   "homepage": "https://github.com/danmce/rebass-merge#readme",
   "dependencies": {
+    "@rebass/forms": "^4.0.6",
     "@rebass/preset": "^4.0.5",
     "d3-shape": "^1.2.2",
     "emotion": "^9.2.12",

@@ -9,7 +9,9 @@ module.exports = {
           'src/Heading/Heading.js',
           'src/Text/Text.js',
           'src/Link/Link.js',
-          'src/Image/Image.js'
+          'src/Image/Image.js',
+          'src/Label/Label.js',
+          'src/Input/Input.js'
         ]
       }
     ]

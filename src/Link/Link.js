@@ -7,7 +7,10 @@ const Link = ({ children, ...props }) => (
 )
 
 Link.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ]),
   href: PropTypes.string,
   variant: PropTypes.oneOf(['nav'])
 }

@@ -12,7 +12,10 @@ export default Button
 
 Button.propTypes = {
   onClick: PropTypes.func,
-  children: PropTypes.string,
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ]),
   variant: PropTypes.oneOf(['primary', 'secondary', 'outline']),
   stretch: PropTypes.bool
 }

@@ -7,7 +7,10 @@ const Text = ({ children, ...props }) => (
 )
 
 Text.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ]),
   fontWeight: PropTypes.oneOf(['bold', 'normal']),
   color: PropTypes.string
 }
