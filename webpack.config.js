@@ -19,16 +19,16 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'svg-react-loader'
       },
-      // {
-      //   test: /\.js$/,
-      //   exclude: /node_modules/,
-      //   enforce: 'pre',
-      //   loader: 'eslint-loader',
-      //   options: {
-      //     failOnWarning: false,
-      //     failOnError: true,
-      //   },
-      // },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        enforce: 'pre',
+        loader: 'eslint-loader',
+        options: {
+          failOnWarning: false,
+          failOnError: true
+        }
+      },
       {
         loader: 'babel-loader',
         test: /\.js$/,
