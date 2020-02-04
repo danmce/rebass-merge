@@ -4,5 +4,5 @@ import { ThemeProvider } from 'emotion-theming'
 import theme from '@rebass/preset'
 
 export default function UXPinWrapper ({ children }) {
-  return <ThemeProvider theme={theme}>{children}</ThemeProvider>
+  return <ThemeProvider>{children}</ThemeProvider>
 }
