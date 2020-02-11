@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Image correctly: enzyme.mount 1`] = `
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+}
+
+@media screen and (min-width:40em) {
+  .emotion-0 {
+    width: 50%;
+  }
+}
+
+<Image
+  src="https://fillmurray.com/200/300"
+  sx={
+    Object {
+      "borderRadius": 8,
+      "width": Array [
+        "100%",
+        "50%",
+      ],
+    }
+  }
+>
+  <ForwardRef
+    src="https://fillmurray.com/200/300"
+    sx={
+      Object {
+        "borderRadius": 8,
+        "width": Array [
+          "100%",
+          "50%",
+        ],
+      }
+    }
+  >
+    <Styled(div)
+      __css={
+        Object {
+          "height": "auto",
+          "maxWidth": "100%",
+        }
+      }
+      as="img"
+      src="https://fillmurray.com/200/300"
+      sx={
+        Object {
+          "borderRadius": 8,
+          "width": Array [
+            "100%",
+            "50%",
+          ],
+        }
+      }
+    >
+      <img
+        className="emotion-0"
+        src="https://fillmurray.com/200/300"
+      />
+    </Styled(div)>
+  </ForwardRef>
+</Image>
+`;

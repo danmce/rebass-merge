@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Heading correctly: enzyme.mount 1`] = `
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 24px;
+  font-family: heading;
+  font-weight: heading;
+  line-height: heading;
+  font-size: 32px;
+  color: primary;
+}
+
+@media screen and (min-width:40em) {
+  .emotion-0 {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .emotion-0 {
+    font-size: 64px;
+  }
+}
+
+<Heading
+  color="primary"
+  fontSize={
+    Array [
+      5,
+      6,
+      7,
+    ]
+  }
+>
+  <ForwardRef
+    color="primary"
+    fontSize={
+      Array [
+        5,
+        6,
+        7,
+      ]
+    }
+  >
+    <Styled(div)
+      __css={
+        Object {
+          "fontFamily": "heading",
+          "fontSize": 4,
+          "fontWeight": "heading",
+          "lineHeight": "heading",
+        }
+      }
+      as="h2"
+      color="primary"
+      fontSize={
+        Array [
+          5,
+          6,
+          7,
+        ]
+      }
+      tx="text"
+      variant="heading"
+    >
+      <h2
+        className="emotion-0"
+      >
+        Hello
+      </h2>
+    </Styled(div)>
+  </ForwardRef>
+</Heading>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Button correctly: enzyme.mount 1`] = `
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<Label
+  htmlFor="email"
+>
+  <ForwardRef
+    htmlFor="email"
+  >
+    <Styled(div)
+      __css={
+        Object {
+          "width": "100%",
+        }
+      }
+      as="label"
+      htmlFor="email"
+      tx="forms"
+      variant="label"
+    >
+      <label
+        className="emotion-0"
+        htmlFor="email"
+      >
+        Email
+      </label>
+    </Styled(div)>
+  </ForwardRef>
+</Label>
+`;

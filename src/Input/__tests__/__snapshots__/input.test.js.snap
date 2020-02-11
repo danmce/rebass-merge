@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Button correctly: enzyme.mount 1`] = `
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid;
+  border-radius: default;
+  color: inherit;
+  background-color: transparent;
+}
+
+<Input
+  inputId="email"
+  inputName="email"
+  inputPlaceholder="jane@example.com"
+  inputType="email"
+  label="email"
+  labelFor="email"
+  uxpId="input1"
+>
+  <Styled(div)>
+    <div
+      className="emotion-2"
+    >
+      <ForwardRef
+        htmlFor="email"
+      >
+        <Styled(div)
+          __css={
+            Object {
+              "width": "100%",
+            }
+          }
+          as="label"
+          htmlFor="email"
+          tx="forms"
+          variant="label"
+        >
+          <label
+            className="emotion-0"
+            htmlFor="email"
+          >
+            email
+          </label>
+        </Styled(div)>
+      </ForwardRef>
+      <ForwardRef
+        id="email"
+        name="email"
+        placeholder="jane@example.com"
+        type="email"
+      >
+        <Styled(div)
+          __css={
+            Object {
+              "appearance": "none",
+              "bg": "transparent",
+              "border": "1px solid",
+              "borderRadius": "default",
+              "color": "inherit",
+              "display": "block",
+              "fontSize": "inherit",
+              "lineHeight": "inherit",
+              "p": 2,
+              "width": "100%",
+            }
+          }
+          as="input"
+          id="email"
+          name="email"
+          placeholder="jane@example.com"
+          tx="forms"
+          type="email"
+          variant="input"
+        >
+          <input
+            className="emotion-1"
+            id="email"
+            name="email"
+            placeholder="jane@example.com"
+            type="email"
+          />
+        </Styled(div)>
+      </ForwardRef>
+    </div>
+  </Styled(div)>
+</Input>
+`;
